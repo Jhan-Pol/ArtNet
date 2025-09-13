@@ -1,0 +1,17 @@
+.sesion-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.intro_description {
+  flex-basis: 60%; /* ocupa el 70% */
+}
+
+.sesion {
+  flex-basis: 40%; /* ocupa el resto */
+}

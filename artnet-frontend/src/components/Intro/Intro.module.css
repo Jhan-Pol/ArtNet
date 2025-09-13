@@ -1,0 +1,81 @@
+.intro_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Quattrocento", serif;
+  height: 100%;
+  gap: 0.7rem;
+  width: 100%;
+  background: url("/images/intro_background.svg") no-repeat center center;
+  background-size: cover;
+  padding-top: 1.5rem;
+}
+
+.figure {
+  border-right: solid #000000;
+  border-left: solid #000000;
+  width: 370px;
+  height: 180px;
+  background-color: rgba(190, 0, 102, 0.137);
+  border-radius: 100%;
+  clip-path: polygon(0% 0%, 38% 0%, 100.1% 66%, 29.5% 100%, 0% 70.5%);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 24px;
+  font-size: 85px;
+  filter: drop-shadow(0 0 1px #000000);
+  color: rgba(33, 7, 23, 0.779);
+  min-width: 120px; /* O el tamaño que prefieras */
+  flex-shrink: 0;
+}
+
+.intro_description {
+  font-size: 2.3rem;
+  color: #000000;
+  padding: 0 2rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  border-right: solid #000000;
+  border-right-style: dashed;
+  font-family: initial;
+}
+
+.form {
+  flex-basis: 35%;
+}
+.container_form {
+  width: 100%;
+  height: 100%;
+}
+.sesion_container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.intro {
+  flex-basis: 65%;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3rem;
+}
