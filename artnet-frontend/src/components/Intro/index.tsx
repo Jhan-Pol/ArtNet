@@ -7,7 +7,6 @@ type Props = {
 
 const intro = (props: Props) => {
   const { description } = props;
-
   return (
     <div className={styles.intro_container}>
       <figure className={styles.figure}>ArtNet</figure>

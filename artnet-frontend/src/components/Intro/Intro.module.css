@@ -41,8 +41,7 @@
   overflow-wrap: break-word;
   white-space: normal;
   max-width: 100%;
-  border-right: solid #000000;
-  border-right-style: dashed;
+
   font-family: initial;
 }
 
@@ -78,4 +77,33 @@
   width: 100%;
   height: 100%;
   padding-bottom: 3rem;
+}
+
+.intro_animation {
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    display: none;
+  }
+  .form {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .content_container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .intro_animation {
+    padding-top: 0;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+  }
 }
