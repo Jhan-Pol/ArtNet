@@ -1,0 +1,38 @@
+.data_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  height: 100vh;
+  /* max-width: 800px; */
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.tittle_image {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.publication_image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+@media (max-width: 1400px) {
+  .data_container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+  }
+}

@@ -6,7 +6,7 @@ import Signup from "./components/Auth/signUp.jsx";
 import Login from "./components/Auth/login.jsx";
 import NotFound from "./components/NotFound";
 import PrivateRoute from "./components/Routes/privateRoute.jsx";
-import DataPublication from "./components/Feed/dataPublication.jsx";
+import DataPublication from "./components/Publications/dataPublication.jsx";
 import AllPublications from "./components/Feed/allPublications.jsx";
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           path="/publication/:id"
           element={
             <PrivateRoute>
-              <DataPublication />
+              <Feed Component={DataPublication} />
             </PrivateRoute>
           }
         />
